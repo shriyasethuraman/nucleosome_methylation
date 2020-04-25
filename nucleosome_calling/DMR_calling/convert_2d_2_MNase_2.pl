@@ -5,6 +5,7 @@
 #tasks: 0-generate table, 1-generate lengths
 #does not properly handle non-existing columns!
 #perl convert_2d.pl filename column task > output.csv
+#
 
 use autodie;
 
