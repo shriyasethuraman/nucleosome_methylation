@@ -37,7 +37,9 @@ Together these give the direction rather than the association.
 
 Scripts expect to be run from their own directory, with shared helper scripts at the repository root and intermediate files one level above the analysis folders. The relative paths inside the scripts follow that arrangement.
 
-## Scripts not included
+## Notes on the code
+
+The scripts contain absolute paths to the lab storage and compute environment where the analysis was originally run. They are left as they were rather than rewritten, so the code reflects what actually produced the published results.
 
 Two Perl helper scripts are called by the analysis scripts but are not part of this repository:
 
